@@ -1,0 +1,7 @@
+# Idea files
+.idea
+embassy.iml
+out
+
+# Maven build
+target

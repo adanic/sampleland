@@ -1,0 +1,273 @@
+html {
+    display: block;
+    background: url("../image/1.jpg") no-repeat no-repeat;
+    background-size: cover;
+}
+
+th {
+    text-align: right;
+}
+
+label {
+    white-space: nowrap;
+    margin-left: 2px;
+}
+
+.layout {
+    margin-top: 20px;
+
+}
+
+.layout .navbar {
+    margin-right: 100px;
+}
+
+.logo {
+    height: 42px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-right: -20px;
+    display: block;
+    float: right;
+    padding: 10px 20px 10px;
+    position: absolute;
+}
+
+.add-icon, .edit-icon, .download-icon {
+    cursor: pointer;
+    float: left;
+}
+
+.add-icon {
+    max-width: 36px;
+}
+
+.edit-icon, .download-icon {
+    max-width: 22px;
+}
+
+.params {
+    max-width: 170px;
+    min-width: 120px;
+    text-align: left !important;
+    font-size: 8.5pt;
+}
+
+td.edit-group, td.download-resources {
+    width: 24px;
+}
+
+.edit-group .edit-icon, .edit-channel .edit-icon, .download-resources .download-icon {
+    visibility: hidden;
+}
+
+tr.channel:hover img {
+    visibility: visible;
+}
+
+tr.group:hover img {
+    visibility: visible;
+}
+
+.edit-channel, .edit-group {
+    text-align: left;
+}
+
+.container {
+    background: transparent;
+}
+
+.popover-container {
+    position: absolute;
+    top: 10px;
+}
+
+section.add-popover, section.edit-popover {
+    position: absolute;
+    min-width: 420px;
+}
+
+.btn-toolbar {
+    text-align: center;
+    font-size: 100%;
+}
+
+.table.resources-table th, .table.resources-table td {
+    padding: 5px;
+}
+
+.overlay {
+    background: #aaa;
+    opacity: .3;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    display: none;
+    overflow-y: hidden;
+}
+
+.update-group {
+    margin-right: 25px;
+    float: right;
+}
+
+.span6.caption {
+    margin-right: 0;
+}
+
+.close-edit-group {
+    float: left;
+    cursor: pointer;
+    margin-top: -4px;
+    margin-left: -10px;
+    width: 26px;
+}
+
+.close-notification {
+    float: left;
+    cursor: pointer;
+    margin-top: -7px;
+    margin-left: -35px;
+    width: 20px;
+}
+
+.message {
+    text-align: center;
+    opacity: .9;
+    z-index: 1020;
+    padding: 8px 14px 8px 35px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.success {
+    background-color: green;
+    color: #f5f5f5;
+    border: 1px solid green;
+}
+
+.error {
+    background-color: #b94a48;
+    color: #f5f5f5;
+    border: 1px solid #b94a48;
+}
+
+.resource-search-result img.exist {
+    float: left;
+    width: 16px;
+    margin-top: 4px;
+}
+
+td.trusted img.exist {
+    text-align: center;
+    width: 16px;
+    margin-top: 4px;
+}
+
+.resource-search-result td.state {
+    text-align: left;
+    width: 25%;
+}
+
+.resource-search-result img.notexist {
+    margin-top: 0;
+    margin-bottom: -4px;
+    margin-left: -4px;
+    width: 18px;
+    float: left;
+}
+
+td.trusted img.notexist {
+    margin-top: 0;
+    margin-bottom: -4px;
+    margin-left: -4px;
+    width: 18px;
+    text-align: center;
+}
+
+.resource-search-result {
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    height: 20px;
+}
+
+.result {
+    max-height: 160px;
+    overflow-y: auto;
+}
+
+.serviceDiv, .groupDiv {
+    max-height: 160px;
+    max-width: 268px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: white;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.serviceDiv .checkbox input, .groupDiv .checkbox input {
+    margin: 0 -16px;
+}
+
+.row-fluid .span2 {
+    width: 16%;
+}
+
+section.report-filter {
+    height: 100px;
+}
+
+.row-fluid .date-to {
+    margin-right: 9px !important;
+}
+
+.report-filter label {
+    margin-left: 5px;
+}
+
+td.comment {
+    max-width: 170px;
+    min-width: 120px;
+    text-align: right;
+    font-size: 8.5pt;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    text-align: center;
+    opacity: .9;
+    z-index: 1020;
+}
+
+th.channel-ip {
+    min-width: 80px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.top10 {
+    top:10px;
+}
+
+.transaction-list {
+    max-height: 320px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.ltr-right {
+    direction: ltr;
+    text-align: right;
+}
